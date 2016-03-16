@@ -19,6 +19,11 @@ img.img-thumbnail
     line-height:1;
 }
 
+.container
+{
+    min-height:800px;
+}
+
 .page-header small
 {
     margin:0 10px;
@@ -52,6 +57,19 @@ figcaption
 figcaption small
 {
     font-size:16px;
+}
+
+table.table th,table.table td
+{
+    padding:15px 0 !important;
+}
+table.table th.first,table.table td.first
+{
+    border-top:none !important;
+}
+table.table small
+{
+    margin:0 0 0 1em;
 }
 
 .copyright
