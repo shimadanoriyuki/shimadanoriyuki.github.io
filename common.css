@@ -19,9 +19,45 @@ img.img-thumbnail
     line-height:1;
 }
 
+.page-header small
+{
+    margin:0 10px;
+}
+
+h2
+{
+    font-size:18px;
+}
+h2 > span
+{
+    margin:0 0.6em 0 0;
+}
+
+figure img
+{
+    width:100%;
+    height:auto;
+    border-radius:6px;
+    padding:2px;
+    background-color:#fff;
+    box-shadow:0 0 5px rgba(0,0,0,0.2);
+}
+figcaption
+{
+    text-align:center;
+    font-size:24px;
+    padding:20px 0 0;
+    line-height:1.2;
+}
+figcaption small
+{
+    font-size:16px;
+}
+
 .copyright
 {
     font-size:75%;
     padding:20px;
     text-align:center;
+    background-color:#f8f8f8;
 }
